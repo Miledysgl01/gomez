@@ -96,7 +96,7 @@
 }
 
 body{
-  background-image: url(img/fondo.jpg);
+  background: pink;
     font-family: 'Open sans';
 }
 
@@ -319,13 +319,6 @@ form.form_contact input[type="button"]:hover{
 </style>
 
    
-
-<footer class="footer text-faded text-center py-5">
-  <div class="container">
-    <p class="m-0 small">Blog de serpientes <br> 
-    Miledys Gomez</p>
-  </div>
-</footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
