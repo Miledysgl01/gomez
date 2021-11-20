@@ -68,7 +68,7 @@
                  </label>
               <textarea tyoe="text"></textarea>
 
-              <input type="button" value="Enviar solicitud" id="btnSend">
+              <input type="submit" value="Enviar solicitud" id="btnSend">
           </div>
       </form>
 
@@ -319,6 +319,8 @@ form.form_contact input[type="button"]:hover{
 </style>
 
    
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

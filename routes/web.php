@@ -21,6 +21,13 @@ route:: get('/formulario', function() {
     return view('formulario');
 });
 
+route:: get('/mensaje', function(){
+    return view('mensaje');
+});
+
+
+
 Auth::routes();
+Route::get('/formulario', [App\Http\Controllers\serpiente::class, 'Guardar'])->name('mensaje');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

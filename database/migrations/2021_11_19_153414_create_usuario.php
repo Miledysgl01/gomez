@@ -30,7 +30,7 @@ class CreateUsuario extends Migration
      *
      * @return void
      */
-    public function down()
+    public function Guardar()
     {
         Schema::dropIfExists('usuario');
     }
